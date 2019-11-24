@@ -1,0 +1,53 @@
+.navbar-header a{
+    padding: 0 20px;
+}
+.navbar-header img{
+    height: 51px;
+}
+.slider{
+    background-image: url("images/back2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+body{
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.mg-top50{
+    margin-top: 50px;
+}
+.nature{
+    background-image: url(images/portfolio/1.jpg);
+}
+.events{
+    background-image: url(images/portfolio/2.jpg);
+}
+.music{
+    background-image: url(images/portfolio/3.jpg);
+}
+.vingate{
+    background-image: url(images/portfolio/4.jpg);
+}
+.typers{
+    background-image: url(images/portfolio/5.jpg);
+}
+.hotel{
+    background-image: url(images/portfolio/6.jpg);
+}
+
+.bg-size{
+    padding: 120px;
+    background-size: cover;
+    color: white;
+}
+@media only screen and (max-width:767px){
+    .navbar-collapse {
+        width: 100%;
+        float: none;
+    }
+    #nekoe-id li{
+        display: block;
+    }
+}
